@@ -1,0 +1,209 @@
+*{
+	color: #3d3d3d;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+p,span{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+body{
+	background-color: lightgray;
+}
+.card{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 40px;
+	border-radius: 10px;
+}
+
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo span{
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+}
+.logo{
+	margin-top: 20px;
+	display: flex;
+	align-items: center
+}
+
+.menu a{
+	display: inline-block;
+	margin-left: 20px;
+	text-transform: uppercase;
+	color: #3d3d3d;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.headline{
+	margin-top: 140px;
+}
+.headline-card{
+	background-color: #f0f8ff;
+}
+.headline-title{
+	padding: 5px 0 60px 0;
+	font-size: 34px;
+	font-weight: 300;
+}
+.headline-text{
+	width: 530px;
+	line-height: 34px;
+}
+.headline-image{
+	background-image: url(/img/headlineImg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 340px;
+	width: 415px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	position: relative;
+	right: 130px;
+}
+.white-text{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 60px;
+	color: white;
+	padding: 20px 40px;
+}
+
+
+
+#argument{
+	margin-top: 140px;
+}
+
+
+
+
+#mission{
+	margin-top: 140px;
+}
+.tariffs{
+	position: relative;
+	z-index: 2;
+}
+.tariffs-tariff, .tariff-price{
+	color: #555555;
+	font-weight: normal;
+}
+.tariff-price{
+	font-weight: bold;
+	display: block;
+	text-align: right;
+}
+.mission-card{
+	width: 115%;
+	position: relative;
+	right: 15%;
+	padding-left: 20%;
+	padding-right: 12%;
+	background-color: #f0f8ff;
+	line-height: 34px;
+	padding-bottom: 70px;
+}
+.mission-title{
+	padding: 15px 0 40px 0;
+}
+.mission-controls{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 30px;
+}
+.mission-button{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border: none;
+	border-radius: 10px;
+	padding: 10px 90px;
+	background-color: #fff0f5;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.consul_modal-buttons{
+	text-align: right;
+}
+.consul_modal-buttons .mission-button{
+	width: 300px;
+}
+.modal-content.card{
+	background-color: #f0f8ff;
+}
+.subject{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 5px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	background-color: #fff5ee;
+	cursor: pointer;
+}
+.subject:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.subject.subject_active{
+	background-color: #a1eaa1;
+}
+
+#kids{
+	margin-top: 300px;
+	padding-top: 120px;
+	padding-bottom: 100px;
+	box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), inset 0 3px 6px rgba(0,0,0,0.23);
+	background-color: #fff0f5;
+}
+.kids-items{
+	margin-top: 130px
+}
+.kids-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 400px;
+	border-radius: 35px;
+	background-color: #f0f8ff;
+}
+.kids-item  img{
+	width: 125px;
+	height: 125px;
+}
+.kids-item_title{
+	margin-top: 55px;
+	margin-bottom: 30px;
+	font-weight: 400;
+}
+
+
+#next{
+	padding-top:400px; 
+}
+
+
+#footer{
+	padding: 30px 0;
+	background-color: #333;
+	color: white !important;
+}
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+}
+#footer .menu a, #footer .copyright small ,#footer .copyright small a{
+	color: white !important;
+	text-decoration: none;
+}

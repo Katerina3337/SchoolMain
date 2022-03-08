@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baby-owl</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+<div id="app">
+    <header id="header">
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <span>Сов</span>
+                    <img src="img/logoOwl.png" alt="">
+                    <span>нок</span>
+                </div>
+                <div class="menu">
+                    <a href="https://vk.com/club207333927">vk</a>
+                    <a href="https://instagram.com/the_owl_school?utm_medium=copy_link">instagram</a>
+                    <a href="tel:89065557393">+7 (906) 555-73-93</a>
+                </div>
+            </div>
+            <div class="headline">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card headline-card">
+                            <h2 class="headline-title">Как чувствует себя ваш ребёнок?</h2>
+                            <p class="headline-text">Зачастую ребёнку не хватает времени на уроке для понимания и усвоения
+                                материала, ведь в классе очень много учеников и у учителя нет возможности уделить внимание
+                                каждому. Вследствие чего многие дети становятся не уверены в себе и ошибочно считают, что не
+                                заслуживают внимания, так как они глупые и неспособные понять всё на лету.</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="white-text">Екатерина</div>
+                        <div class="card headline-image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="argument">
+        <div class="container">
+            <h2 class="text-center">Детская успеваемость и уверенность <br>
+                сильно влияют на успех во взрослой жизни</h2>
+        </div>
+    </section>
+
+
+    <section id="mission">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="tariffs">
+                        <div class="white-text">Тарифы</div>
+                        <div class="card">
+                            <h4 class="tariffs-tariff">Индивидуальный</h4>
+                            <p>Индивидуальные онлайн занятия с преподавателем.
+                                Вы можете заниматься по школьной программе или углублённо изучать предмет.</p>
+                            <span class="tariff-price">8 занятий - 4800 руб.</span>
+                        </div>
+                        <div class="card mt-3">
+                            <h4 class="tariffs-tariff">Одноклассники</h4>
+                            <p>Ребята из одного класса занимаются с преподавателем в небольшой группе <br> (до 5 человек).
+                                Можно учиться вместе с друзьями онлайн, что делает занятия более увлекательными и интересными.</p>
+                            <span class="tariff-price">8 занятий - от 2000 руб.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card mission-card">
+                        <h2 class="mission-title">Миссия нашей компании</h2>
+                        <p>
+                            Наша миссия это - повышение интереса детей к образованию и снижение стресса во время обучения в школе.
+                            Повышение интереса достигается детальной проработкой учебного материала в темпе, индивидуально подобранном под
+                            ученика или группу, а также интерактивными играми и общением в свободной форме с молодыми учителями.
+                            Снижение беспокойства во время школьного обучение достигается изучением школьного учебного материала вперёд
+                            по учебнику и элемента менторства учителей в вопросах деликатного общения с школьными преподавателями и одноклассниками.
+                        </p>
+
+                        <p>
+                            Мы изобретаем образование в удалённом формате, переиспользуя многолетний опыт преподавания и готовимся к будущему
+                            в котором интернет образование будет доступно для каждого
+                        </p>
+
+                        <div class="mission-controls">
+                            <button type="button" class="mission-button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                записаться
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content  card">
+                <h5 class="modal-title">Форма записи на консультацию</h5>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="row mt-4">
+                            <div class="col-8">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Имя ученика</label>
+                                    <input v-model="name" type="email" class="form-control" id="exampleFormControlInput1"
+                                           placeholder="Имя">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Класс</label>
+                                    <select v-model="grade" class="form-control">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Место консультации</label>
+                                    <select v-model="messenger" class="form-control">
+                                        <option value="1"><b>Zoom</b></option>
+                                        <option value="2">Telegram</option>
+                                        <option value="3">Whatsapp</option>
+                                        <option value="4">Skype</option>
+                                        <option value="5">Viber</option>
+                                        <option value="6">Icq</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Желаемое время</label>
+                                    <input v-model="orderDate" class="form-control " type="datetime-local">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Телефон для связи</label>
+                                    <input v-model="phone" class="form-control " type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subjects mt-5">
+                            <span
+                                    v-for="subject in subjects"
+                                    @click="toggleSubject(subject)"
+                                    :class="activeSubject(subject)"
+                                    :id="subject.id">
+                                {{subject.name}}
+                            </span>
+                        </div>
+                    </form>
+                    <div class="consul_modal-buttons mt-5">
+                        <button type="button" @click="createOrder" class="mission-button">Записаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="kids">
+        <div class="container">
+            <h2 class="text-center">У детей уникальный и свежий взгляд на мир</h2>
+            <div class="row kids-items">
+                <div class="col">
+                    <div class="kids-item card">
+                        <img src="./img/kids_1.png" alt="">
+                        <h4 class="kids-item_title">Дети честные</h4>
+                        <p class="kids-item_about">Не пытаются сделать вид, что заинтересованы на скучном уроке.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="kids-item card">
+                        <img src="./img/kids_2.png" alt="">
+                        <h4 class="kids-item_title">Дети любопытные</h4>
+                        <p class="kids-item_about">Детей можно заинтересовать в обучении на всю жизнь</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="kids-item card">
+                        <img src="./img/kids_3.png" alt="">
+                        <h4 class="kids-item_title">Дети интересные</h4>
+                        <p class="kids-item_about">Нельзя ругать детей за креативный и уникальный взгляд на мир</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="next"></section>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="copyright">
+                        <small><a href="https://www.vecteezy.com/free-vector/toys">Toys Vectors by Vecteezy</a></small>
+                    </div>
+                </div>
+                <div>
+                    <div class="copyright">
+                        <small>&copy; Copyright 2021, ООО "Адамант"</small>
+                    </div>
+                </div>
+                <div>
+                    <div class="menu">
+                        <a href="https://vk.com/club207333927">vk</a>
+                        <a href="https://instagram.com/the_owl_school?utm_medium=copy_link">instagram</a>
+                        <a href="tel:89065557393">+7 (906) 555-73-93</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
